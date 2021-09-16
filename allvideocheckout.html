@@ -1,251 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Order Now</title>
-		<link rel="icon" type="image/png" href="assets/images/favi.png" sizes="32x32">
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,400,700,900" rel="stylesheet">
-		<link rel="stylesheet" href="assets/fonts/linear-fonts.css">
-		<link rel="stylesheet" href="assets/fonts/font-awesome.css">
-		<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
-		<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
-		<link rel="stylesheet" href="assets/css/lightbox.min.css">
-		<link rel="stylesheet" href="assets/css/magnific-popup.css">
-		<link rel="stylesheet" href="assets/css/animate.min.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="assets/css/responsive.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-	</head>
-	<body>
-		<header id="home" class="welcome-area">
-			<div class="header-top-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="logo">
-								<a href="#">
-								<img src="YouNedia.png">
-								</a>
-							</div>
-						</div>
-						<div class="col-md-9">
-							<div class="mainmenu">
-								<div class="navbar navbar-nobg">
-									<div class="navbar-header">
-										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										</button>
-									</div>
-									<div class="navbar-collapse collapse">
-										<ul class="nav navbar-nav navbar-right">
-											<li><a href="user-profile.php">Dashboard</a>
-											</li>
-											<li class="active"><a href="allvideocheckout.html">Order Now</a>
-											</li>
-											<li><a class="smoth-scroll" href="logout.php">Sign Out</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Order Now</title>
+	<link rel="icon" type="image/png" href="assets/images/favi.png" sizes="32x32">
+	<!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/linear-fonts.css">
+	<link rel="stylesheet" href="assets/fonts/font-awesome.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+	<link rel="stylesheet" href="assets/css/lightbox.min.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- script
+    ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+</head>
+
+<body id="top" >
+	<header class="s-header">
+		<div class="header-logo">
+			<a class="site-logo" href="index.html">
+				<img src="YouNedia.png" alt="Homepage">
+			</a>
+		</div>
+		<nav class="header-nav">
+			<a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+			<div class="header-nav__content">
+				<h3 style="color:#FFBA00;">Navigation</h3>
+				<ul class="header-nav__list">
+					<li class="current"><a class="smoothscroll" href="user-profile.php" title="home">Dashboard</a></li>
+					<li><a class="smoothscroll" href="allvideocheckout.html" title="about">Order Now</a></li>
+					<li><a class="smoothscroll" href="logout.php" title="services">Sign Out</a></li>
+				</ul>
+				<ul class="header-nav__social">
+					<li>
+						<a style="color: black;" target="_blank" href="http://facebook.com/younedia"><i
+								class="fa fa-facebook"></i></a>
+					</li>
+					<li>
+						<a style="color: black;" target="_blank" href="https://twitter.com/younedia"><i
+								class="fa fa-twitter"></i></a>
+					</li>
+					<li>
+						<a style="color: black;" target="_blank" href="https://www.instagram.com/younedia/"><i
+								class="fa fa-instagram"></i></a>
+					</li>
+					<li>
+						<a style="color: black;" target="_blank" href="https://www.linkedin.com/company/younedia"><i
+								class="fa fa-linkedin" aria-hidden="true"></i></a>
+					</li>
+				</ul>
 			</div>
-		</header>
-		<section id="service" class="service-area section-padding order-now-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="section-title">
+		</nav>
+		<a class="header-menu-toggle" href="#0">
+			<span class="header-menu-icon"></span>
+		</a>
+
+	</header>
+	<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero.jpg"
+		data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+		<div class="overlay" style="background-color: transparent; "></div>
+		<div class="shadow-overlay"></div>
+		<div class="home-content">
+			<div class="row home-content__main">
+				<div style="background-color: rgba(255, 255, 255, 0.904);" class="row contact-content loginSection" id="login" data-aos="fade-up">
+					<div class="contact-primary">
+						<div class="container">
 							<div class="row">
-								<div class="col-md-12 text-center">
-									<div class="header-text user-page">
-										<h2>Enter Order Details</h2>
-										<span class="title-divider">
-										<i class="fa fa-diamond" aria-hidden="true"></i>
-										</span>
-										<p> Increase views, likes and subscribers on your YouTube videos now</p>
+								<div class="col-sm-12">
+									<div class="section-title">
+										<div class="row">
+											<div class="col-md-12 text-center">
+												<div class="header-text user-page">
+													<h2>Enter Order Details</h2>
+													<!-- <span class="title-divider">
+														<i class="fa fa-diamond" aria-hidden="true"></i>
+													</span> -->
+													<p style="color: #000;"> Increase views, likes and subscribers on your YouTube videos now</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
+							<div class="row">
+								<form  id="form" style="margin-top: 0px;"
+									action="allvideocheckout.php" method="GET">
+									<h4><strong>1) INPUT YOUR YOUTUBE VIDEO LINK</strong></h4>
+									<input style="color: black;" id="url" class="inp long-value-input" autofocus="autofocus" type="text"
+										placeholder="https://www.youtube.com/watch?v=60wPzgh2obk" name="youtubeURL" size="100">
+									<button onclick="showVideoThumbnail();" type="button" class="btn btn-primary">Preview Video</button>
+									<div id="showVideoThumbnail">
+									</div>
+									<script>
+										function showVideoThumbnail() {
+											var id = document.getElementById("url").value;
+											var i1 = id.indexOf("=");
+											var idRefined = id.substring(i1 + 1, id.length);
+											if (idRefined.indexOf("&") != -1) {
+												idRefined = idRefined.substring(0, idRefined.indexOf("&"));
+											}
+											var url = "https://youtube.com/embed/" + idRefined;
+											document.getElementById("showVideoThumbnail").innerHTML = "<br><iframe style='width: 484px; height: 364px;' src='" + url + "'></iframe>";
+										}
+									</script>
+									<br><br>
+									<h4><strong>2) WANTS AND TARGET AUDIENCE</strong></h4>
+									<h5>BESIDES VIEWS, I ALSO WANT: </h5>
+									<input style="display: inline;" type="checkbox" id="wants1" name="wants1"
+										value="Likes and Comments">
+									<label style="display: inline;" for="wants1">Likes &amp; Comments</label>
+									<input style="display: inline;" type="checkbox" id="wants2" name="wants2" value="Subscribers">
+									<label style="display: inline;" for="wants2">Subscribers</label>
+									<input style="display: inline;" type="checkbox" id="wants3" name="wants3" value="Installs">
+									<label style="display: inline;" for="wants3">Installs</label>
+									<h5>GENDER: </h5>
+									<input style="display: inline;" type="radio" id="gender1" name="gender" value="Male">
+									<label style="display: inline;" for="gender1">Male</label>
+									<input style="display: inline;" type="radio" id="gender2" name="gender" value="Female">
+									<label style="display: inline;" for="gender2">Female</label>
+										<h5> AGE:</h5>
+										&emsp;<input style="display: inline;" type="radio" id="age1" name="age" value="13 to 24">
+										<label style="display: inline;" for="age1">13&ndash;24</label>
+										&emsp;<input style="display: inline;" type="radio" id="age2" name="age" value="25 to 34">
+										<label style="display: inline;" for="age2">25&ndash;34</label>
+										&emsp;<input style="display: inline;" type="radio" id="age3" name="age" value="35 to 44">
+										<label style="display: inline;" for="age3">35&ndash;44</label>
+										&emsp;<input style="display: inline;" type="radio" id="age4" name="age" value="45 to 54">
+										<label style="display: inline;" for="age4">45&ndash;54</label>
+										&emsp;<input style="display: inline;" type="radio" id="age5" name="age" value="55 to 64">
+										<label style="display: inline;" for="age5">55&ndash;64</label>
+										<h5> LOCATION:</h5>
+										&emsp;<input style="display: inline;" type="radio" name="location1" value="Global">
+										<label style="display: inline;" for="location">Global</label><br>
+										&emsp;<input style="display: inline;" type="radio" name="location1" value="Country">
+										<label style="display: inline;" for="location">Country</label><br>
+										<script>
+											$('input[type=radio][name=location1]').change(function () {
+												if (this.value == 'Country') {
+													document.getElementById("countries").style.display = "block";
+												} else {
+													document.getElementById("countries").style.display = "none";
+												}
+											});
+										</script>
+										<input style="display: inline; color: black	;" id="countries" class="inp long-value-input"
+											autofocus="autofocus" type="text" placeholder="Canada|Brazil|China" name="location2"
+											style="display: none;" size="40">
+										<h5>VIDEO CATEGORY:</h5>
+										<select style="color: black;" name="video_category" id="video-category">
+											<option value="" selected="selected">Select Category</option>
+											<option value="Film and Animation">Film &amp; Animation</option>
+											<option value="Autos and Vehicles">Autos &amp; Vehicles</option>
+											<option value="Music">Music</option>
+											<option value="Pets and Animals">Pets &amp; Animals</option>
+											<option value="Sports">Sports</option>
+											<option value="Travel and Events">Travel &amp; Events</option>
+											<option value="Gaming">Gaming</option>
+											<option value="People and Blogs">People &amp; Blogs</option>
+											<option value="Comedy">Comedy</option>
+											<option value="Entertainment">Entertainment</option>
+											<option value="News and Politics">News &amp; Politics</option>
+											<option value="Howto and Style">Howto &amp; Style</option>
+											<option value="Education">Education</option>
+											<option value="Science and Technology">Science &amp; Technology</option>
+											<option value="Nonprofits and Activism">Nonprofits &amp; Activism</option>
+										</select>
+										<h5>KEYWORDS:</h5>
+										<input style="color: black;" type="text" placeholder="Shopping|e-commerce|entertainment" name="keywords" size="40">
+										<h4 class="spc-title"><strong>3) CHOOSE YOUR BUDGET</strong></h4>
+										<div style="color: black;" ng-app="myApp" ng-controller="viewsCtrl">
+											BUDGET: $<input style="color: black;" type="number" ng-model="budget" placeholder="20" name="budget"
+												id="budget"><br>
+											VIEWS: {{viewsCalculation();}}
+										</div>
+										<script>
+											var app = angular.module('myApp', []);
+											app.controller('viewsCtrl', function ($scope) {
+												$scope.viewsCalculation = function () {
+													return $scope.budget * 50;
+												};
+											});
+										</script>
+										<br><br>
+										<button type="submit" value="Submit" class="btn btn-primary" id="submitButton">Pay Now</button>
+										<br><br>
+										<iframe id="iframe" src="" height="1100" width="1170"
+											style="border: none; position: absolute; left: 248px; top: 384px; z-index: 5; display: none;"></iframe>
+								</form>
+							</div>
 						</div>
-					</div>
 				</div>
-				<div class="row">
-					<form id="form" style="margin-top: 0px;" action="allvideocheckout.php" method="GET">
-    					<h4><strong>1) INPUT YOUR YOUTUBE VIDEO</strong></h4>
-    					<input id="url" class="inp long-value-input" autofocus="autofocus" type="text" placeholder="https://www.youtube.com/watch?v=60wPzgh2obk" name="youtubeURL" size="100">
-    					<button onclick="showVideoThumbnail();" type="button" class="btn btn-primary">Preview Video</button>
-    					<div id="showVideoThumbnail">
-    					</div>
-    					<script>
-    						function showVideoThumbnail(){
-    						    var id=document.getElementById("url").value;
-    						    var i1=id.indexOf("=");
-    						    var idRefined=id.substring(i1+1, id.length);
-    						    if(idRefined.indexOf("&") != -1){
-    						        idRefined=idRefined.substring(0, idRefined.indexOf("&"));
-    						    }
-    						    var url="https://youtube.com/embed/"+idRefined;
-    						    document.getElementById("showVideoThumbnail").innerHTML="<br><iframe style='width: 484px; height: 364px;' src='"+url+"'></iframe>";
-    						}
-    					</script>
-    					<br><br>
-    					<h4><strong>2) WANTS AND TARGET AUDIENCE</strong></h4>
-    					<h5>BESIDES VIEWS, I ALSO WANT: </h5>
-    					<input type="checkbox" id="wants1" name="wants1" value="Likes and Comments">
-    					<label for="wants1">Likes &amp; Comments</label> 
-    					<input type="checkbox" id="wants2" name="wants2" value="Subscribers">
-    					<label for="wants2">Subscribers</label> 
-    					<input type="checkbox" id="wants3" name="wants3" value="Installs">
-    					<label for="wants3">Installs</label> 
-    					<h5>GENDER: </h5>
-    					<input type="radio" id="gender1" name="gender" value="Male">
-    					<label for="gender1">Male</label> 
-    					<input type="radio" id="gender2" name="gender" value="Female">					
-    					<label for="gender2">Female</label> 
-    					<h5> AGE:</h5>
-    					&emsp;<input type="radio" id="age1" name="age" value="13 to 24">
-    					<label for="age1">13&ndash;24</label> 
-    					&emsp;<input type="radio" id="age2" name="age" value="25 to 34">
-    					<label for="age2">25&ndash;34</label> 
-    					&emsp;<input type="radio" id="age3" name="age" value="35 to 44">
-    					<label for="age3">35&ndash;44</label> 
-    					&emsp;<input type="radio" id="age4" name="age" value="45 to 54">
-    					<label for="age4">45&ndash;54</label> 
-    					&emsp;<input type="radio" id="age5" name="age" value="55 to 64">
-    					<label for="age5">55&ndash;64</label> 
-    					<h5> LOCATION:</h5>
-    					&emsp;<input type="radio" name="location1" value="Global">
-    					<label for="location">Global</label><br>
-    					&emsp;<input type="radio" name="location1" value="Country">
-    					<label for="location">Country</label><br>
-    					<script>
-    						$('input[type=radio][name=location1]').change(function() {
-    						    if (this.value == 'Country') {
-    						        document.getElementById("countries").style.display="block";
-    						    }else{
-    						        document.getElementById("countries").style.display="none";
-    						    }
-    						});
-    					</script>
-    					<input id="countries" class="inp long-value-input" autofocus="autofocus" type="text" placeholder="Canada|Brazil|China" name="location2" style="display: none;" size="40">
-    					<h5>VIDEO CATEGORY:</h5>
-    					<select name="video_category" id="video-category">
-    						<option value="" selected="selected">Select Category</option>
-    						<option value="Film and Animation">Film &amp; Animation</option>
-    						<option value="Autos and Vehicles">Autos &amp; Vehicles</option>
-    						<option value="Music">Music</option>
-    						<option value="Pets and Animals">Pets &amp; Animals</option>
-    						<option value="Sports">Sports</option>
-    						<option value="Travel and Events">Travel &amp; Events</option>
-    						<option value="Gaming">Gaming</option>
-    						<option value="People and Blogs">People &amp; Blogs</option>
-    						<option value="Comedy">Comedy</option>
-    						<option value="Entertainment">Entertainment</option>
-    						<option value="News and Politics">News &amp; Politics</option>
-    						<option value="Howto and Style">Howto &amp; Style</option>
-    						<option value="Education">Education</option>
-    						<option value="Science and Technology">Science &amp; Technology</option>
-    						<option value="Nonprofits and Activism">Nonprofits &amp; Activism</option>
-    					</select>
-    					<h5>KEYWORDS:</h5>
-    					<input type="text" placeholder="Shopping|e-commerce|entertainment" name="keywords" size="40">
-    					<h4 class="spc-title"><strong>3) CHOOSE YOUR BUDGET</strong></h4>
-    					<div ng-app="myApp" ng-controller="viewsCtrl">
-    						BUDGET: $<input type="number" ng-model="budget" placeholder="20" name="budget" id="budget"><br>
-    						VIEWS: {{viewsCalculation();}}
-    					</div>
-    					<script>
-    						var app = angular.module('myApp', []);
-    						app.controller('viewsCtrl', function($scope) {
-    						    $scope.viewsCalculation = function() {
-    						        return $scope.budget*50;
-    						    };
-    						});
-    					</script>
-    					<br><br>
-    					<button type="submit" value="Submit" class="btn btn-primary" id="submitButton">Pay Now</button>
-    					<br><br>
-    					<iframe id="iframe" src="" height="1100" width="1170" style="border: none; position: absolute; left: 248px; top: 384px; z-index: 5; display: none;"></iframe>
-					</form>
-				</div>
-			</div>
-		</section>
-		<footer class="footer-area wow fadeInUp" data-wow-delay="1s">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<div class="footer-social-link text-center">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-						</div>
-						<span class="title-divider">
-						<i class="fa fa-diamond" aria-hidden="true"></i>
-						</span>
-						<div class="footer-text">
-							<h6>All Rights Reserved</h6>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<div class="scroll-to-up">
-			<div class="scrollup">
-				<span class="lnr lnr-chevron-up"></span>
 			</div>
 		</div>
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="assets/js/jquery.appear.js"></script>
-		<script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
-		<script src="assets/js/jquery.mixitup.js"></script>
-		<script src="assets/js/jquery.magnific-popup.min.js"></script>
-		<script src="assets/js/jquery.stellar.min.js"></script>
-		<script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-		<script type="text/javascript">
-			$('.player').mb_YTPlayer();
-		</script>
-		<script src="assets/js/jquery.waypoints.min.js"></script>
-		<script src="assets/js/jquery.counterup.min.js"></script>
-		<script src="assets/js/lightbox.min.js"></script>
-		<script src="assets/js/wow.min.js"></script>
-		<script src="assets/js/scripts.js"></script>
-		<script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script type="text/javascript">
-			$("document").ready(function(){
-				$("#form").on("submit", function(event){
-				    var formData = $('form').serialize();
-				    var srcString="allvideocheckout.php?"+formData;
-				    document.getElementById("iframe").src=srcString;
-					event.preventDefault();
-					$.ajax({
-						type :'GET',
-						data : formData,
-						url  : 'allvideocheckout.php',
-						success : function(response){
-						    document.getElementById('iframe').style.display="block";
-						    document.getElementById('iframe').contentWindow.document.getElementById('rzp-button1').click();
-						},
-						error : function(e){
-							console.log(e);
-						}
-					});
+		</div>
+		<ul class="home-social">
+			<li>
+				<a target="_blank" href="http://facebook.com/younedia"><i class="fa fa-facebook"
+						aria-hidden="true"></i><span>Facebook</span></a>
+			</li>
+			<li>
+				<a target="_blank" href="https://twitter.com/younedia"><i class="fa fa-twitter"
+						aria-hidden="true"></i><span>Twiiter</span></a>
+			</li>
+			<li>
+				<a target="_blank" href="https://www.instagram.com/younedia/"><i class="fa fa-instagram"
+						aria-hidden="true"></i><span>Instagram</span></a>
+			</li>
+			<li>
+				<a target="_blank" href="https://www.linkedin.com/company/younedia"><i class="fa fa-linkedin"
+						aria-hidden="true"></i><span>LinkedIn</span></a>
+			</li>
+		</ul>
+	</section>
+
+	</header> 
+	
+	<footer>
+
+		<div class="row footer-main">
+
+			<div class=" footer-desc">
+				<!-- class="col-six tab-full left" -->
+				<div class="footer-logo"></div>
+				Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien
+				massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh
+				pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas
+				autem necessitatibus vitae aut.
+
+			</div>
+			<div style="text-align: center;margin-top: 4rem;">
+				<ul class="header-nav__social">
+					<li>
+						<a target="_blank" href="http://facebook.com/younedia"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://twitter.com/younedia"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.instagram.com/younedia/"><i
+								class="fa fa-instagram"></i></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.linkedin.com/company/younedia"><i class="fa fa-linkedin"
+								aria-hidden="true"></i></a>
+					</li>
+					<!-- <li>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </li> -->
+				</ul>
+			</div>
+
+		</div>
+
+		</div> <!-- end footer-main -->
+
+		<div class="row footer-bottom">
+
+			<div class="col-twelve">
+				<div class="copyright">
+					<span>© Copyright YouNedia 2020</span>
+				</div>
+
+				<div class="go-top">
+					<a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"
+							aria-hidden="true"></i></a>
+				</div>
+			</div>
+
+		</div> <!-- end footer-bottom -->
+
+	</footer>
+	<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.appear.js"></script>
+	<script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.mixitup.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+	<script type="text/javascript">
+		$('.player').mb_YTPlayer();
+	</script>
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/lightbox.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$("document").ready(function () {
+			$("#form").on("submit", function (event) {
+				var formData = $('form').serialize();
+				var srcString = "allvideocheckout.php?" + formData;
+				document.getElementById("iframe").src = srcString;
+				event.preventDefault();
+				$.ajax({
+					type: 'GET',
+					data: formData,
+					url: 'allvideocheckout.php',
+					success: function (response) {
+						document.getElementById('iframe').style.display = "block";
+						document.getElementById('iframe').contentWindow.document.getElementById('rzp-button1').click();
+					},
+					error: function (e) {
+						console.log(e);
+					}
 				});
 			});
-		</script>
-	</body>
+		});
+	</script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
 </html>
