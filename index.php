@@ -634,8 +634,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="contact-primary">
 
                 <h3 class="h6">Send Us A Message</h3>
-
-                <form name="contactForm" id="contactForm" action="assets/php/contact.php" method="post" novalidate="novalidate">
+                <!-- assets/php/contact.php -->
+                <form name="contactForm" id="contactForm" action="inc/sendEmail.php" method="post" novalidate="novalidate">
                     <fieldset>
 
                         <div class="form-field">
@@ -671,9 +671,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </form>
 
                 <!-- contact-warning -->
-                <!-- <div class="message-warning">
+                <div class="message-warning">
                     Something went wrong. Please try again.
-                </div> -->
+                </div>
 
                 <!-- contact-success -->
                 <div class="message-success">
