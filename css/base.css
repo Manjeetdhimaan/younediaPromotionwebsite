@@ -654,6 +654,8 @@ textarea {
 /* stack columns on small mobile devices
  * ------------------------------------------------------------------- */
 
+
+
 @media only screen and (max-width: 400px) {
     .row .row {
         padding-left: 0;
@@ -661,6 +663,8 @@ textarea {
         margin-left: 0;
         margin-right: 0;
     }
+  
+   
     [class*="col-"] {
         width: 100% !important;
         float: none !important;
@@ -924,5 +928,18 @@ textarea {
     text-align: center;
 }
 
+.homeAllVideoCheckOut{
+    margin-left: 10rem;
+}
+@media only screen and (max-width: 622px) {
+    .homeAllVideoCheckOut{
+        margin-left: 5rem;
+    }  
+}
+@media only screen and (max-width: 400px) {
+    .homeAllVideoCheckOut{
+        margin-left: 2rem;
+    }  
+}
 
 /*# sourceMappingURL=base.css.map */

@@ -73,6 +73,7 @@ html {
 
 html, body {
     height: 100%;
+    
 }
 
 body {
@@ -2174,7 +2175,7 @@ html.no-csstransitions .home-content__main {
     }
     .home-content__main {
         text-align: center;
-        max-width: none;
+        /* max-width: none; */
         padding-top: 15rem;
         padding-right: 25px;
         width: 85%;
@@ -2190,7 +2191,15 @@ html.no-csstransitions .home-content__main {
         display: none;
     }
 }
-
+@media only screen and (max-width: 484px){
+    .home-content__main {
+        /* text-align: center; */
+        max-width: none;
+        /* padding-top: 15rem;
+        padding-right: 25px;
+        width: 85%; */
+    }
+}
 @media only screen and (max-width: 450px) {
     .home-content h1 {
         font-size: 3.3rem;
@@ -3344,7 +3353,8 @@ html.no-csstransitions .home-content__main {
     }
     .contact-content {
         padding-bottom: 12rem;
-        text-align: center;
+        text-align: left;
+        /* text-align: center; */
     }
     .contact-primary, .contact-secondary {
         padding: 0 20px;
@@ -3364,14 +3374,17 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    background: rgba(255, 255, 255, 0.527);
-    padding: 9rem 0 6rem;
+    background: darkslategrey;
+    padding: 3rem 0 6rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: #000; 
+    color: #fff; 
     /* color: rgba(255, 255, 255, 0.3);      */
+}
+footer h1{
+    color: #fff;
 }
 
 footer h4 {
@@ -3399,7 +3412,7 @@ footer .row {
  * ## footer main
  * --------------------------------------------------------------- */
 .footer-main {
-    text-align: left;
+    text-align: center;
 }
 
 .footer-main .left {
@@ -3634,5 +3647,10 @@ footer .row {
     }
 }
 
-
+@media only screen and (max-width: 1150px) {
+.dashboardLabel{
+    display: block;
+    max-width: 40rem;
+}
+}
 /*# sourceMappingURL=main.css.map */
