@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="assets/css/responsive.css">
 
 
-      <!-- new theme -->
+    <!-- new theme -->
 
 
     <link rel="stylesheet" href="css/base.css">
@@ -95,63 +95,62 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ================================================== -->
     <link rel="shortcut icon" href="favi.png" type="image/x-icon">
     <link rel="icon" href="favi.png" type="image/x-icon">
-      <!-- new theme -->
+    <!-- new theme -->
 </head>
 
 <body id="top">
-<header class="s-header">
+    <header class="s-header">
 
-<div class="header-logo">
-    <a class="site-logo" href="index.php">
-        <img src="YouNedia.png" alt="Homepage">
-    </a>
-</div>
+        <div class="header-logo">
+            <a class="site-logo" href="index.php">
+                <img src="YouNedia.png" alt="Homepage">
+            </a>
+        </div>
 
-<nav class="header-nav">
+        <nav class="header-nav">
 
-    <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
-    <div class="header-nav__content">
-        <h3 style="color:#FFBA00;">Navigation</h3>
+            <div class="header-nav__content">
+                <h3 style="color:#FFBA00;">Navigation</h3>
 
-        <ul class="header-nav__list">
-            <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
-            <li><a class="smoothscroll" href="#about" title="about">Why Choose Us</a></li>
-            <li><a class="smoothscroll" href="#services" title="services">Our Services</a></li>
-            <li><a class="smoothscroll" href="#clients" title="clients">Clients</a></li>
-            <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
-        </ul>
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">Why Choose Us</a></li>
+                    <li><a class="smoothscroll" href="#services" title="services">Our Services</a></li>
+                    <li><a class="smoothscroll" href="#clients" title="clients">Clients</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+                </ul>
 
-        <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto
+                <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto
             sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
 
-        <ul class="header-nav__social">
-            <li>
-                <a style="color: black;" target="_blank" href="http://facebook.com/younedia"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li>
-                <a style="color: black;" target="_blank" href="https://twitter.com/younedia"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li>
-                <a style="color: black;" target="_blank" href="https://www.instagram.com/younedia/"><i class="fa fa-instagram"></i></a>
-            </li>
-            <li>
-                <a style="color: black;" target="_blank" href="https://www.linkedin.com/company/younedia"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </li>
-        </ul>
-    </div>
+                <ul class="header-nav__social">
+                    <li>
+                        <a style="color: black;" target="_blank" href="http://facebook.com/younedia"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a style="color: black;" target="_blank" href="https://twitter.com/younedia"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a style="color: black;" target="_blank" href="https://www.instagram.com/younedia/"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a style="color: black;" target="_blank" href="https://www.linkedin.com/company/younedia"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
 
-</nav> 
+        </nav>
 
-<a class="header-menu-toggle" href="#0">
-    <!-- <span class="header-menu-text" style="color: #ffa800;">Menu</span> -->
-    <span class="header-menu-icon"></span>
-</a>
+        <a class="header-menu-toggle" href="#0">
+            <!-- <span class="header-menu-text" style="color: #ffa800;">Menu</span> -->
+            <span class="header-menu-icon"></span>
+        </a>
 
-</header>
-  
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero.jpg"
-        data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    </header>
+
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -196,22 +195,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <form id="signupform0" style="margin-top: 0px;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                     <fieldset>
                         <div class="form-field">
-                            <input type="email" id="advertiser_email_box0" placeholder="Enter your email here"
-                                name="username" value="" required="" aria-required="true" class="full-width">
+                            <input type="email" id="advertiser_email_box0" placeholder="Enter your email here" name="username" value="" required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input id="advertiser_password_box0" placeholder="Enter your password here" type="password"
-                                value="" required aria-required="true" class="full-width" required="">
+                            <input id="advertiser_password_box0" placeholder="Enter your password here" type="password" value="" required aria-required="true" class="full-width" required="">
                         </div>
                         <span class="help-block"><?php echo $password_err; ?></span>
-                        <input type="text" name="value" value="high" hidden required>
+                        <input type="hidden" name="value" value="high" hidden required>
                         <div class="form-field">
                             <input type="submit" class="full-width btn--primary" style="margin-top: 15px;vertical-align:top;" id="register_btn" value="Login Now">
-                            <div class="register-with-us" style="text-align: center;" >
+                            <div class="register-with-us" style="text-align: center;">
                                 NOT HAVE ACCOUNT, REGISTER NOW</div>
-                                <a class="smoothscroll  " href="#register" style="color: #fff;"><button  type="button" class="full-width btn--primary" style="margin-top: 15px;vertical-align:top;" id="register_btn" value="Register Now">Register Now</button></a>
-                            <div class="register-with-us" style="text-align: center;"><a class="resendemail" form="0"
-                                    href="reset_pass.html">FORGOT YOUR PASSWORD?</a></div>
+                            <a class="smoothscroll  " href="#register" style="color: #fff;"><button type="button" class="full-width btn--primary" style="margin-top: 15px;vertical-align:top;" id="register_btn" value="Register Now">Register Now</button></a>
+                            <div class="register-with-us" style="text-align: center;"><a class="resendemail" form="0" href="reset_pass.html">FORGOT YOUR PASSWORD?</a></div>
                         </div>
                     </fieldset>
                 </form>
@@ -225,29 +221,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="form-field">
                             <label for="input-name">Name*</label>
 
-                            <input type="text" id="register_fullname" name="fullname" placeholder="Enter your Name"
-                                required="" aria-required="true" class="full-width">
+                            <input type="text" id="register_fullname" name="fullname" placeholder="Enter your Name" required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
                             <label for="input-phone">E-mail Address*</label>
-                            <input type="email" id="register_e-mail" name="username" placeholder="Enter Email*"
-                                required="" value="" required aria-required="true" class="full-width">
+                            <input type="email" id="register_e-mail" name="username" placeholder="Enter Email*" required="" value="" required aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
                             <label for="input-phone">Password*</label>
-                            <input type="password" id="register_password" name="password" placeholder="Create Password"
-                                required="" value="" required aria-required="true" class="full-width">
+                            <input type="password" id="register_password" name="password" placeholder="Create Password" required="" value="" required aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
                             <label for="input-phone">Confirm Password*</label>
-                            <input type="password" id="register_confirmpassword" name="confirm_password"
-                                placeholder="Confirm Your Password" required="" value="" required aria-required="true"
-                                class="full-width">
+                            <input type="password" id="register_confirmpassword" name="confirm_password" placeholder="Confirm Your Password" required="" value="" required aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input type="submit" class="full-width btn--primary"
-                                style="margin-top: 45px;vertical-align:top;" name="" value="Promote Video Now"
-                                id="register_btn">
+                            <input type="submit" class="full-width btn--primary" style="margin-top: 45px;vertical-align:top;" name="" value="Promote Video Now" id="register_btn">
                         </div>
                     </fieldset>
                 </form>
@@ -266,11 +255,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt.
+                    We are an integrated creative Digital Marketing Company which uncover unique opportunities
+                    for your brand, define the action priorities, design and develop out of the box communication
+                    collateral across platforms and guide the communication implementation.
                 </p>
             </div>
         </div> <!-- end about-desc -->
@@ -278,7 +265,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
 
             <div class="col-block stats__col ">
-                <div class="stats__count" style="display: inline;">1200 </div><span class="stats__count__span" >+</span>
+                <div class="stats__count" style="display: inline;">1200 </div><span class="stats__count__span">+</span>
                 <h5>Videos Promoted</h5>
             </div>
             <div class="col-block stats__col">
@@ -301,232 +288,215 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </section>
 
 
-    
+
 
     <section id='services' class="s-works">
 
-<div class="intro-wrap">
+        <div class="intro-wrap">
 
-    <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-        <div class="col-full">
-            <h3 class="subhead">What We Offer</h3>
-            <h1 class="display-2 display-2--light">We’ve everything you need to grow your business</h1>
-        </div>
-    </div> <!-- end section-header -->
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">What We Offer</h3>
+                    <h1 class="display-2 display-2--light">We’ve everything you need to grow your business</h1>
+                </div>
+            </div> <!-- end section-header -->
 
-</div> <!-- end intro-wrap -->
+        </div> <!-- end intro-wrap -->
 
-<div class="row works-content">
-    <div class="col-full masonry-wrap">
-        <div class="masonry">
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                    <div class="item-folio__thumb">
-                        <a href="images/SEO.jpg" class="thumb-link"
-                            title="Shutterbug" data-size="1050x700">
-                            <img src="images/SEO.jpg"
-                                srcset="images/SEO.jpg, images/SEO.jpg"
-                                alt="">
-                        </a>
-                    </div>
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                            <div class="item-folio__thumb">
+                                <a href="images/SEO.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="images/SEO.jpg" srcset="images/SEO.jpg, images/SEO.jpg" alt="">
+                                </a>
+                            </div>
 
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            SEO
-                        </h3>
-                        <p class="item-folio__cat">
-                            Digital Marketing
-                        </p>
-                    </div>
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    SEO
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Digital Marketing
+                                </p>
+                            </div>
 
-                    <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                         <i class="icon-link"></i>
                     </a> -->
 
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                            dolorem corrupti neque nisi.</p>
-                    </div>
+                            <div class="item-folio__caption">
+                                <p>Drive your website to the next level with search engine optimization.
+                                    Allow the power of keywords to help your website be found anywhere your audience
+                                    is searching. At YouNedia Digital Marketing Agency, we know how to make SEO work
+                                    for our clients.</p>
+                            </div>
 
-                </div>
-            </div> <!-- end masonry__brick -->
+                        </div>
+                    </div> <!-- end masonry__brick -->
 
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
-                    <div class="item-folio__thumb">
-                        <a href="images/webDesining.jfif" class="thumb-link" title="Woodcraft"
-                            data-size="1050x700">
-                            <img src="images/webDesining.jfif"
-                                srcset="images/webDesining.jfif 1x, images/webDesining.jfif 2x"
-                                alt="">
-                        </a>
-                    </div>
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                            <div class="item-folio__thumb">
+                                <a href="images/webDesining.jfif" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                    <img src="images/webDesining.jfif" srcset="images/webDesining.jfif 1x, images/webDesining.jfif 2x" alt="">
+                                </a>
+                            </div>
 
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Website
-                        </h3>
-                        <p class="item-folio__cat">
-                            Web Developing
-                        </p>
-                    </div>
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Website
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Developing
+                                </p>
+                            </div>
 
-                    <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                         <i class="icon-link"></i>
                     </a> -->
 
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                            dolorem corrupti neque nisi.</p>
-                    </div>
+                            <div class="item-folio__caption">
+                                <p>We offer modern, mobile-ready, responsive and SEO-friendly websites designed
+                                    to convert traffic on your page.</p>
+                            </div>
 
-                </div>
-            </div> <!-- end masonry__brick -->
+                        </div>
+                    </div> <!-- end masonry__brick -->
 
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
 
-                    <div class="item-folio__thumb">
-                        <a href="images/youtubeMarket.jpg" class="thumb-link"
-                            title="The Beetle Car" data-size="1050x700">
-                            <img src=""
-                                srcset="images/youtubeMarket.jpg , images/youtubeMarket.jpg "
-                                alt="">
-                        </a>
-                    </div>
+                            <div class="item-folio__thumb">
+                                <a href="images/youtubeMarket.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                    <img src="" srcset="images/youtubeMarket.jpg , images/youtubeMarket.jpg " alt="">
+                                </a>
+                            </div>
 
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Youtube Management
-                        </h3>
-                        <p class="item-folio__cat">
-                            Youtube Marketing
-                        </p>
-                    </div>
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Youtube Management
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Youtube Marketing
+                                </p>
+                            </div>
 
-                    <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                         <i class="icon-link"></i>
                     </a> -->
 
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                            dolorem corrupti neque nisi.</p>
-                    </div>
+                            <div class="item-folio__caption">
+                                <p>We run YouTube Ad campaigns that connect with your target customers,
+                                    and generate leads at scale.</p>
+                            </div>
 
-                </div>
-            </div> <!-- end masonry__brick -->
+                        </div>
+                    </div> <!-- end masonry__brick -->
 
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
 
-                    <div class="item-folio__thumb">
-                        <a href="images/socialMediaMarket.jpg" class="thumb-link"
-                            title="Grow Green" data-size="1050x700">
-                            <img src=""
-                                srcset="images/socialMediaMarket.jpg 1x, images/socialMediaMarket.jpg 2x"
-                                alt="">
-                        </a>
-                    </div>
+                            <div class="item-folio__thumb">
+                                <a href="images/socialMediaMarket.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                    <img src="" srcset="images/socialMediaMarket.jpg 1x, images/socialMediaMarket.jpg 2x" alt="">
+                                </a>
+                            </div>
 
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Social Media Management
-                        </h3>
-                        <p class="item-folio__cat">
-                            Social Media Marketing.
-                        </p>
-                    </div>
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Social Media Management
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Social Media Marketing.
+                                </p>
+                            </div>
 
-                    <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                         <i class="icon-link"></i>
                     </a> -->
 
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                            dolorem corrupti neque nisi.</p>
-                    </div>
+                            <div class="item-folio__caption">
+                                <p>YouNedia Digital Marketing Agency makes it easier for you to focus on the
+                                    other parts of your business with our social media management and marketing services..</p>
+                            </div>
 
-                </div>
-            </div> <!-- end masonry__brick -->
+                        </div>
+                    </div> <!-- end masonry__brick -->
 
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
 
-                    <div class="item-folio__thumb">
-                        <a href="images/fb&instaa.png" class="thumb-link" title="Guitarist"
-                            data-size="1050x700">
-                            <img src="images/fb&instaa.png"
-                                srcset="images/fb&instaa.png 1x, images/fb&instaa.png 2x"
-                                alt="">
-                        </a>
-                    </div>
+                            <div class="item-folio__thumb">
+                                <a href="images/fb&instaa.png" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                    <img src="images/fb&instaa.png" srcset="images/fb&instaa.png 1x, images/fb&instaa.png 2x" alt="">
+                                </a>
+                            </div>
 
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            Facebook and Insta Ads
-                        </h3>
-                        <p class="item-folio__cat">
-                            Digital Marketing
-                        </p>
-                    </div>
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Facebook and Insta Ads
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Digital Marketing
+                                </p>
+                            </div>
 
-                    <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                         <i class="icon-link"></i>
                     </a> -->
 
-                    <div class="item-folio__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                            dolorem corrupti neque nisi.</p>
-                    </div>
+                            <div class="item-folio__caption">
+                                <p>Our Instagram and Facebook marketing strategies can take your brand high on the success ladder.</p>
+                            </div>
 
-                </div>
-            </div> <!-- end masonry__brick -->
+                        </div>
+                    </div> <!-- end masonry__brick -->
 
-            <div class="masonry__brick" data-aos="fade-up">
-                <div class="item-folio">
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
 
-                    <div class="item-folio__thumb">
-                        <a href="images/linkedin.jpg" class="thumb-link" title="Palmeira"
-                            data-size="1050x700">
-                            <img src="images/linkedin.jpg"
-                                srcset="images/linkedIn.jpg 1x, images/linkedIn.jpg 2x"
-                                alt="">
-                        </a>
-                    </div>
+                            <div class="item-folio__thumb">
+                                <a href="images/linkedin.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                    <img src="images/linkedin.jpg" srcset="images/linkedIn.jpg 1x, images/linkedIn.jpg 2x" alt="">
+                                </a>
+                            </div>
 
-                    <div class="item-folio__text">
-                        <h3 class="item-folio__title">
-                            LinkedIn Advertisement
-                        </h3>
-                        <p class="item-folio__cat">
-                            Digital Marketing
-                        </p>
-                    </div>
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    LinkedIn Advertisement
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Digital Marketing
+                                </p>
+                            </div>
 
-                    <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                         <i class="icon-link"></i>
                     </a> -->
 
-                    <div class="item-folio__caption">
-                        <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                            dolorem corrupti neque nisi.</p> -->
-                    </div>
+                            <div class="item-folio__caption">
+                                We help you to grow your network with professionals and target
+                                the right audience through LinkedIn Marketing.</p>
+                            </div>
 
-                </div>
-            </div> <!-- end masonry__brick -->
+                        </div>
+                    </div> <!-- end masonry__brick -->
 
-        </div> <!-- end masonry -->
-    </div> <!-- end col-full -->
-</div> <!-- end works-content -->
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
 
-</section>
+    </section>
 
 
     </div>
     </div>
 
 
-     <!-- clients
+    <!-- clients
     ================================================== -->
     <section id="clients" class="s-clients">
 
@@ -555,7 +525,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div> <!-- end col-full -->
         </div> <!-- end clients-outer -->
 
-        <div class="row clients-testimonials" data-aos="fade-up">
+        <!-- <div class="row clients-testimonials" data-aos="fade-up">
             <div class="col-full">
                 <div class="testimonials">
 
@@ -604,10 +574,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                     </div>
 
-                </div><!-- end testimonials -->
+                </div>
 
-            </div> <!-- end col-full -->
-        </div> <!-- end client-testimonials -->
+            </div> 
+        </div> -->
 
     </section> <!-- end s-clients -->
 
@@ -615,7 +585,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-      <!-- contact
+    <!-- contact
     ================================================== -->
     <section id="contact" class="s-contact">
 
@@ -625,7 +595,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+                <h1 class="display-2 display-2--light">Contact us for a new project</h1>
             </div>
         </div>
 
@@ -634,26 +604,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="contact-primary">
 
                 <h3 class="h6">Send Us A Message</h3>
-                <!-- assets/php/contact.php -->
-                <form name="contactForm" id="contactForm" action="inc/sendEmail.php" method="post" novalidate="novalidate">
+                <!-- assets/php/contact.php-->
+                <form name="contactForm" id="contactForm" action="assets/php/contact.php " method="post" novalidate="novalidate">
                     <fieldset>
 
                         <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value=""
-                                minlength="2" required="" aria-required="true" class="full-width">
+                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                         </div>
-                        
+
                         <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value=""
-                                required="" aria-required="true" class="full-width">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
-                                class="full-width">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
                         </div>
                         <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10"
-                                cols="50" required="" aria-required="true" class="full-width"></textarea>
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                         </div>
                         <div class="form-field">
                             <input class="full-width btn--primary" type="submit">
@@ -671,9 +637,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </form>
 
                 <!-- contact-warning -->
-                <div class="message-warning">
+                <!-- <div class="message-warning">
                     Something went wrong. Please try again.
-                </div>
+                </div> -->
 
                 <!-- contact-success -->
                 <div class="message-success">
@@ -691,9 +657,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <h5>Where to Find Us</h5>
                         <p>
                             Cabin no.- 2, Basement, <br>
-                             Plot no. - F-471, <br>
-                             Phase -8b, Industrial Area <br>
-                              Mohali
+                            Plot no. - F-471, Major's Tower <br>
+                            Phase -8b, Industrial Area <br>
+                            Mohali
                         </p>
                     </div>
 
@@ -707,8 +673,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="cinfo">
                         <h5>Call Us At</h5>
                         <p>
-                            Phone: (+63) 555 1212<br>
-                            Mobile: (+63) 555 0100<br>
+                            Mobile: (+91) 8253000032 <br>
                         </p>
                     </div>
 
@@ -734,54 +699,50 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     </section> <!-- end s-contact -->
     <footer>
+        <div class="row footer-main">
+            <div class=" footer-desc">
+                <!-- class="col-six tab-full left" -->
+                <!-- <div class="footer-logo"></div> -->
+                <h1>YOUNEDIA | Digital Marketing Agency</h1>
+                YouNedia Marketing Agency is a premier, full-service digital marketing, 
+                web design, and consulting agency that generates explosive growth and revenue 
+                in businesses through creative strategy and optimization.
+            </div>
+            <div style="text-align: center;margin-top: 4rem;">
+                <ul class="header-nav__social">
+                    <li>
+                        <a target="_blank" href="http://facebook.com/younedia"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://twitter.com/younedia"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/younedia/"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/company/younedia"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
 
-<div class="row footer-main">
+                </ul>
+            </div>
+            <!-- end footer-main -->
 
-    <div class=" footer-desc">
-         <!-- class="col-six tab-full left" -->
-        <div class="footer-logo"></div>
-        Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien
-        massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh
-        pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas
-        autem necessitatibus vitae aut.
+            <div class="row footer-bottom">
 
-    </div>
-    <div style="text-align: center;margin-top: 4rem;">
-        <ul class="header-nav__social">
-            <li>
-                <a target="_blank" href="http://facebook.com/younedia"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://twitter.com/younedia"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.instagram.com/younedia/"><i class="fa fa-instagram"></i></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.linkedin.com/company/younedia"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </li>
-           
-        </ul>
-    </div>
-     <!-- end footer-main -->
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright YouNedia 2020</span>
+                    </div>
 
-<div class="row footer-bottom">
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
 
-    <div class="col-twelve">
-        <div class="copyright">
-            <span>© Copyright YouNedia 2020</span>
+            </div> <!-- end footer-bottom -->
         </div>
-
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"
-                    aria-hidden="true"></i></a>
-        </div>
-    </div>
-
-</div> <!-- end footer-bottom -->
-
-</footer> <!-- end footer -->
-     <!-- photoswipe background
+    </footer> <!-- end footer -->
+    <!-- photoswipe background
     ================================================== -->
     <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
@@ -796,11 +757,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <div class="pswp__ui pswp__ui--hidden">
                 <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
-                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
-                        title="Share"></button> <button class="pswp__button pswp__button--fs"
-                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
-                        title="Zoom in/out"></button>
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -817,9 +774,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="pswp__caption__center"></div>
                 </div>
             </div>
-
         </div>
-
     </div> <!-- end photoSwipe background -->
 
 
@@ -849,10 +804,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="assets/js/lightbox.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-
-
-
-
 
 
     <script src="assets/js/jquery.min.js"></script>
@@ -907,7 +858,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         });
     </script>
 
-<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 </body>
